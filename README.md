@@ -1,5 +1,7 @@
 # Validator
 
+[![Build Status](https://travis-ci.com/MrDarkSkil/Validator.svg?branch=master)](https://travis-ci.com/MrDarkSkil/Validator)
+
 Validator is Java library makes data validation  very easy in your application. This library was inspired by the Laravel framework's Validator.
 
 ### Why use Validator?
