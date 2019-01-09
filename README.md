@@ -7,7 +7,6 @@ Validator is Java library makes data validation  very easy in your application. 
 - Not dependent on any libraries.
 - Readable and declarative validation rules.
 
-
 ## Features
 - Function isNumber(number: string)
 - Function isDouble(double: string)
@@ -17,11 +16,17 @@ Validator is Java library makes data validation  very easy in your application. 
 - Function validate(value: string, validators: string)
 
 ## Installation
+
+Download **Validator.jar** latest release here: https://github.com/MrDarkSkil/Validator/releases  
+Create **libs** folder and put **Validator.jar** inside.
+
+And add the following lines into your **build.gradle** file.
+
 Gradle:
 ```gradle
 repositories {
     flatDir {
-        dirs '../build/libs' // Path to the jar lib
+        dirs './libs' // Path to the jar lib
     }
 }
 
