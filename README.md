@@ -7,6 +7,8 @@ Validator is Java library makes data validation  very easy in your application. 
 - Not dependent on any libraries.
 - Readable and declarative validation rules.
 
+Validator was be used in this project: https://github.com/remigastaldi/InnoEvent
+
 ## Features
 - Function isNumber(number: string)
 - Function isDouble(double: string)
